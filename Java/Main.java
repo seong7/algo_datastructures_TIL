@@ -6,7 +6,7 @@ class Main {
 
     for(String nemo : arry){
       if(nemo.equals("nemo"))
-      System.out.println("Found NEMO!");
+      System.out.println("Found NEMO! _Java");
     }
   };
 
