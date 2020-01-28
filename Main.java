@@ -1,5 +1,18 @@
 class Main {
+
+  public String [] nemo = {"nemo"};
+
+  public void findNemo(String[] arry){
+
+    for(String nemo : arry){
+      if(nemo.equals("nemo"))
+      System.out.println("Found NEMO!");
+    }
+  };
+
+
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Main main = new Main();
+    main.findNemo(main.nemo);
   }
 }
