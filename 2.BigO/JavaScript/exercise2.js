@@ -16,5 +16,5 @@ function anotherFunChallenge(input) {
     let whoAmI = "I don't know";            // O(1)
 }
 
-// ( O(1) * 4 ) + ( O(n) * 7 ) = BIG O(4+7n) 
+// ( O(1) * 4 ) + ( O(n) * 7 ) ->  O(4+7n) 
 // ==> BIG O(n)
