@@ -3,25 +3,25 @@
 <ol>
     <li>
         <p>O(1)&nbsp; : Constant (상수_ no loop)</p>
-    </li><br/>
+    </li>
     <li>
         <p>O(log N)</p>
-    </li><br/>
+    </li>
     <li>
         <p>O(n)&nbsp : Linear (n item 을 for, while loop 하는 경우</p>
-    </li><br/>
+    </li>
     <li>
         O(n log(n))
-    </li><br/>
+    </li>
     <li>
         O(n^2)
-    </li><br/>
+    </li>
     <li>
         O(2^n)
-    </li><br/>
+    </li>
     <li>
         O(n!)
-    </li><br/>
+    </li>
 </ol>
 
 
