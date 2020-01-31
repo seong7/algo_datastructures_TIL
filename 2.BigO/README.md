@@ -2,13 +2,13 @@
 
 <ol>
     <li>
-        <p>O(1)&nbsp; : Constant (상수_ no loop)</p>
+        O(1)&nbsp; : Constant (상수_ no loop)
     </li>
     <li>
-        <p>O(log N)</p>
+        O(log N)
     </li>
     <li>
-        <p>O(n)&nbsp : Linear (n item 을 for, while loop 하는 경우</p>
+        O(n)&nbsp : Linear (n item 을 for, while loop 하는 경우
     </li>
     <li>
         O(n log(n))
