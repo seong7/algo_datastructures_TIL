@@ -55,3 +55,19 @@
   - **간편함**
 
     > **언어 또는 프레임워크**에 이미 구현되어 있는 기능이므로 별다른 구현 코드 없이 **내장된 기능**에 맡긴다.
+
+  ### -- Hash Function 의 단점
+
+  - **Collision (충돌)**
+
+    > - hash table 에서는 필할 수 없는 문제점임
+    > - 발생 시 해당 메모리 주소의 값을 찾기 위해 모든 해당 주소에 충돌 저장된
+    >   모든 값을 search 해야하므로  
+    >   O(n/k) => **O(n) 의 시간 복잡도** 형성  
+    >   (k : hash table 의 크기)
+
+  - **해결책**
+    - **Linked List** (대표적)
+    - Separate Chaining
+    - Open Addressing
+    - Robinhood Hashing
