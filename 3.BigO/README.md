@@ -1,4 +1,10 @@
-<h2>Big O notation</h2>
+## Big O cheat sheet
+
+- Website [>>](https://www.bigocheatsheet.com/)
+- PDF [>>](./reference/BigO-cheat-sheet-1.pdf)
+- Chart image [>>](./references/Big-O_complexity_chart.PNG)
+
+## Big O notation
 
 <ol>
     <li>
@@ -20,12 +26,11 @@
         O(2^n)
     </li>
     <li>
-        O(n!)
+        O(n!)&nbsp : n factorial (절대 사용되면 안됨 / 모든 요소 각각에 loop 를 추가하는 경우)
     </li>
 </ol>
 
-
-<h2>Big O Rules</h2>
+## Big O rules
 
 <ol>
     <li>
