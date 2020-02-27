@@ -26,7 +26,7 @@ function findNemo(array) {
       // performance.now() 는 DOMHighResTimeStamp 를 return 하므로 
       // DOM 이 없는 node 에서는 아래의 console.time / timeEnd 를 써야함
       // but , 더 정확함
-    }
+}
     
     // console.time(findNemo);
     //findNemo(everyone);  
