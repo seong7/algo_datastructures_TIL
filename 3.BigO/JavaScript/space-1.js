@@ -1,6 +1,7 @@
 /////////////
 // space complexity
 ////////////////
+// time 이 아닌 space 에 대한 Big O 측정을 다룬다.
 
 function booooo(n) {
   for (let i = 0; i < n.length; i++) {
