@@ -12,17 +12,19 @@
   
 2. **Readable**
 
-- **Premature Optimization (O) can be the root of all evil.**   
+- **Premature Optimization(O) can be the root of all evil.**   
   **섣부른 최적화는 문제가 될 수 있다.**   
     > *: **Readable / Memory / Speed** 간 **우선순위**는 상황에 따라 달라지고 세 요소간의 **관계**는 **반비례**할 수 있기 때문*   
     > *- 좋은 개발자는 상황에 따라 **판단**할 수 있어야하며 그에 따라 **코드**를 짠다.*
+
+    => **Trade Off** ! 
 
 
 ## Big O cheat sheet
 
 - Website [>>](https://www.bigocheatsheet.com/)
 - PDF [>>](./reference/BigO-cheat-sheet-1.pdf)
-- Chart image [>>](./references/Big-O_complexity_chart.PNG)
+- Chart [>>](./references/Big-O_complexity_chart.PNG)
 
 ## Big O notation
 
@@ -40,7 +42,7 @@
         O(n log(n))
     </li>
     <li>
-        <strong>O(n^2)</strong>&nbsp : Quadratic (두개의 nested loop (두 collection 간 모든 요소의 비교 등))
+        <strong>O(n^2)</strong>&nbsp : ([O n square] 라고 읽음) Quadratic (두개의 nested loop (두 collection 간 모든 요소의 비교 등))
     </li>
     <li>
         O(2^n)
