@@ -66,8 +66,13 @@
     >   O(n/k) => **O(n) 의 시간 복잡도** 형성  
     >   (k : hash table 의 크기)
 
-  - **해결책**
-    - **Linked List** (대표적)
-    - Separate Chaining
-    - Open Addressing
-    - Robinhood Hashing
+    - **해결책**
+      - **[Linked List](../8.DataStructures_LinkedList)** (대표적)
+      - Separate Chaining
+      - Open Addressing
+      - Robinhood Hashing
+
+  - **순서가 없다.**
+      - **해결책**
+        - **[Linked List](../8.DataStructures_LinkedList)** (대표적)
+

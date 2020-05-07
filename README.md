@@ -14,4 +14,9 @@
 
     - PDF [>>](./4.HowToSolveCodingProblems/ref/problemSolving.pdf)
 
+
+## Data Structures
+- Trade Off   
+  각 자료구조 별 장단점 관계 (trade off) 를 파악하는 것이 중요하다.
+
 7. ## Hash Table [>>>](./7.DataStructure_HashTable)
