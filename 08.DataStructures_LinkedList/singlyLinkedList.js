@@ -107,16 +107,17 @@ class LinkedList {
     let first = this.head;
     let second = this.head.next;
 
-    while(second) {
+    // 원래의 순서대로 도는 loop
+    while(second) {  // tail 의 경우 second 가 null 이므로 while loop escape 됨
       const temp = second.next;
       second.next = first;
-      first = second;
-      second = temp;   // tail 의 경우 next 가 null 이므로 while loop escape 됨
+      first = second;  // 다음 loop 위해 first 에 다음 node (second) 부여 
+      second = temp;   // 다음 loop 위해 second 에 다음 node (second.next __temp) 부여
     }
 
-    this.tail = this.head;
-    this.head.next = null;
-    this.head = first;  // 가장 마지막 node 가 head 가 됨
+    this.tail = this.head; // tail 에 원래의 head 를 부여해줌
+    this.head.next = null; // 원래의 head.next 에 null 부여 
+    this.head = first;     // while 문의 종료 시점 즉, 원래 순서의 가장 마지막 node (원래 tail) 를 head 에 부여
     return this.printList();
   }
 }
